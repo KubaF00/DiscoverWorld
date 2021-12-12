@@ -10,7 +10,9 @@ var backgroundImg = new Array(
     "../images/bg4.png",
     "../images/bg5.png",
 )
+
 let i = 0;
+
 next.onclick = function(){
     if(i<4){
         hero.style.backgroundImage = 'url("'+backgroundImg[i+1]+'")';
