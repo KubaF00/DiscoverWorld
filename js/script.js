@@ -4,11 +4,11 @@ var thumbnail = document.getElementsByClassName("thumbnail");
 var hero = document.getElementById("hero");
 
 var backgroundImg = new Array(
-    "/images/bg11.png",
-    "/images/bg21.png",
-    "/images/bg31.png",
-    "/images/bg41.png",
-    "/images/bg51.png",
+    "/images/bg1.png",
+    "/images/bg2.png",
+    "/images/bg3.png",
+    "/images/bg4.png",
+    "/images/bg5.png",
 )
 let i = 0;
 next.onclick = function(){
