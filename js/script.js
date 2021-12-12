@@ -10,7 +10,7 @@ var backgroundImg = new Array(
     "./images/bg4.png",
     "./images/bg5.png",
 )
-
+hero.style.backgroundImage = 'url("'+backgroundImg[0]+'")';
 let i = 0;
 
 next.onclick = function(){
